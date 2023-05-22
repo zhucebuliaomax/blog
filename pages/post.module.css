@@ -136,14 +136,10 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .code_block {
-    background-color: rgb(50, 50, 50);
-  }
+  .code,
+  .pre,
   .table th {
     background-color: rgb(50, 50, 50);
-  }
-  .pre {
-    background-color: rgb(24, 24, 26);
   }
   .file:hover {
     background: rgba(255, 255, 255, 0.1);
