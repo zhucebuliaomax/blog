@@ -20,6 +20,12 @@ a:hover {
   color: rgb(17, 24, 39, 0.6)
 }
 
+hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+}
+
 @media (prefers-color-scheme: dark) {
   a {
     background-color: rgb(24, 24, 26);
