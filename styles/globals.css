@@ -20,7 +20,7 @@ body {
 
 a {
   color: #111827;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 * {
