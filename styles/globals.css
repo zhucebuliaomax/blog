@@ -21,9 +21,10 @@ a:hover {
 }
 
 hr {
-  height: 0;
-  color: inherit;
-  border-top-width: 1px;
+  height: 1px;
+  color: rgb(17, 24, 39, 0.6);
+  margin-top: 3em;
+  margin-bottom: 3em
 }
 
 @media (prefers-color-scheme: dark) {

@@ -223,7 +223,7 @@ export default function Post({ page, blocks }) {
           {blocks.map((block) => (
             <Fragment key={block.id}>{renderBlock(block)}</Fragment>
           ))}
-        <hr>
+        <hr></hr>
           <Link href="/" className={styles.back}>
           👈 Back
           </Link>
