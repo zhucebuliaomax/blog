@@ -45,12 +45,8 @@ export default function Home({ posts }) {
 
         <footer className={styles.footer}>
           <div>
-            <hr></hr>
             <a>
-              <abbr title="This site and all its content are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." style="cursor: help;">
-                CC BY-NC 4.0
-              </abbr> 
-                2023 © Max.
+              2023 © Max.
             </a>
           </div>
         </footer>
