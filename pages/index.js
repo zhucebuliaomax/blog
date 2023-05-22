@@ -42,6 +42,28 @@ export default function Home({ posts }) {
             );
           })}
         </ol>
+        <footer className={styles.footer}>
+          <div>
+            <a href="https://twitter.com/ShrimpMr" target="_blank">
+              Twitter
+            </a>
+               · 
+            <a href="https://github.com/zhucebuliaomax" target="_blank">
+              GitHub
+            </a>
+               · 
+            <a href="https://instagram.com/unoldtree" target="_blank">
+              Instagram
+            </a>
+            <small>
+              <abbr title="This site and all its content are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." style="cursor: help;">
+                CC BY-NC 4.0
+              </abbr> 
+              <time>2023</time> © Max.
+            </small>
+          </div>
+        </footer>
+
       </main>
     </div>
   );
