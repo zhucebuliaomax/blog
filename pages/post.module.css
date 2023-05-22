@@ -134,7 +134,9 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .code,
+  .code {
+    background-color: rgb(50, 50, 50);
+  }
   .table th {
     background-color: rgb(50, 50, 50);
   }
