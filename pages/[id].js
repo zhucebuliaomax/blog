@@ -227,6 +227,13 @@ export default function Post({ page, blocks }) {
             ← Go home
           </Link>
         </section>
+        <footer className={styles.footer}>
+          <div>
+            <a>
+              2023 © Max.
+            </a>
+          </div>
+        </footer>
       </article>
     </div>
   );
