@@ -21,7 +21,7 @@ export default function Home({ posts }) {
 
         <ol className={styles.posts}>
           {posts.map((post) => {
-            const date = new Date(post.last_edited_time).toLocaleString(
+            const date = new Date(post.date).toLocaleString(
               "en-US",
               {
                 month: "2-digit",
