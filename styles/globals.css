@@ -11,16 +11,17 @@ body {
   color: black;
 }
 
+a {
+  color: #111827;
+  text-decoration: none;
+}
+
 @media (prefers-color-scheme: dark) {
+  a,
   body {
     background-color: rgb(24, 24, 26);
     color: rgb(238, 238, 238);
   }
-}
-
-a {
-  color: #111827;
-  text-decoration: none;
 }
 
 * {
