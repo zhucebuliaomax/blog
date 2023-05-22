@@ -47,28 +47,13 @@ export default function Home({ posts }) {
               </g>
             </svg>
           </div>
-          <h1>Next.js blog powered by Notion API</h1>
-          <p>
-            This is an example of a Next.js blog with data fetched with Notions
-            API. The data comes from{" "}
-            <a href={`https://www.notion.so/${databaseId}`}>this table</a>. Get
-            the source code on{" "}
-            <a href="https://github.com/samuelkraft/notion-blog-nextjs">
-              Github
-            </a>{" "}
-            or read{" "}
-            <a href="https://samuelkraft.com/blog/building-a-notion-blog-with-public-api">
-              my blogpost
-            </a>{" "}
-            on building your own.
-          </p>
+          <h1>Max I/O</h1>
         </header>
 
-        <h2 className={styles.heading}>All Posts</h2>
         <ol className={styles.posts}>
           {posts.map((post) => {
             const date = new Date(post.last_edited_time).toLocaleString(
-              "en-US",
+              "zh-CN",
               {
                 month: "short",
                 day: "2-digit",
@@ -84,7 +69,6 @@ export default function Home({ posts }) {
                 </h3>
 
                 <p className={styles.postDescription}>{date}</p>
-                <Link href={`/${post.id}`}>Read post →</Link>
               </li>
             );
           })}
