@@ -16,7 +16,7 @@ export default function Home({ posts }) {
 
       <main className={styles.container}>
         <header className={styles.header}>
-          <h1>Max I/O</h1>
+          <h1>I/O</h1>
         </header>
 
         <ol className={styles.posts}>
