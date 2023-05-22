@@ -19,8 +19,8 @@ body {
 }
 
 a {
-  color: #2563eb;
-  text-decoration: none;
+  color: #111827;
+  text-decoration: underline;
 }
 
 * {
