@@ -30,7 +30,6 @@
 
 .back {
   display: inline-block;
-  margin-bottom: 20px;
 }
 
 .bold {
@@ -127,6 +126,9 @@
 @media (prefers-color-scheme: dark) {
   .code,
   .table,
+  .table th {
+    background-color: rgb(50, 50, 50);
+  }
   .pre {
     background-color: rgb(24, 24, 26);
   }
