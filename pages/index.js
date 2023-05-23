@@ -21,15 +21,23 @@ export default function Home({ posts }) {
 
         <ol className={styles.posts}>
           {posts.map((post) => {
+            const date = new Date(post.last_edited_time).toLocaleString(
+              "en-US",
+              {
+                month: "2-digit",
+                day: "2-digit",
+                year: "numeric",
+              }
+            );
             return (
               <li key={post.id} className={styles.post}>
                 <h3 className={styles.postTitle}>
-                  <Link href={`/${post.slug}`}>
+                  <Link href={`/${post.id}`}>
                     <Text text={post.properties.Name.title} />
                   </Link>
                 </h3>
 
-                <p className={styles.postDescription}>{post.date}</p>
+                <p className={styles.postDescription}>{date}</p>
               </li>
             );
           })}
